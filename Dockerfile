@@ -1,10 +1,10 @@
 FROM alpine
-RUN apk add alpine-conf &&\
- apk add openrc &&\
- setup-xorg-base; exit 0 &&\
- apk add xfce4 xfce4-terminal xfce4-screensaver lightdm-gtk-greeter &&\
- rc-update add dbus &&\
- rc-update add lightdm &&\
- apk add xauth &&\
- apk update
+RUN apk add alpine-conf
+RUN apk add openrc
+RUN setup-xorg-base; exit 0
+RUN apk add xfce4 xfce4-terminal xfce4-screensaver lightdm-gtk-greeter
+RUN rc-update add dbus
+RUN rc-update add lightdm
+RUN apk add xauth
+RUN apk update
 RUN echo "done"
