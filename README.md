@@ -19,7 +19,7 @@ sudo docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix/ -v $HO
 
 #Start and attach the container IF already created but closed, in order to do it again
 
-sudo docker start my_container
+sudo docker start my_container  
 sudo docker attach my_container
 
 #In the container's shell, run the following
