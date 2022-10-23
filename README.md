@@ -23,6 +23,7 @@ sudo docker start my_container
 sudo docker attach my_container
 
 #In the container's shell, run the following
+#if it says startxfce4 not found, run 'apk add xfce4' in the shell
 
 DISPLAY=:0 startxfce4
 
