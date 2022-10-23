@@ -24,3 +24,5 @@ DISPLAY=:0 startxfce4
 
 #ctrl+c in container shell to close
 #type exit in container shell to close it
+
+#If there is an error, close and restart Xephyr and run line 23 again
