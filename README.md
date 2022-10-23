@@ -12,7 +12,8 @@ xhost +local:*
 Xephyr :0
 
 #Start the container
-sudo docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix/ --name my_container tag_name
+sudo docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix/ -v $HOME/.Xauthority:/.Xauthority --name my_container tag_name
+
 
 #Start and attach the container IF already created but closed, in order to do it again
 sudo docker start my_container
