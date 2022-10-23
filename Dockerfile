@@ -7,4 +7,4 @@ RUN rc-update add dbus
 RUN rc-update add lightdm
 RUN apk add xauth
 RUN apk update
-RUN echo "done"
+RUN echo "done all"
