@@ -41,6 +41,8 @@ Install vnc viewer in another device.
 **Use below command to create container instead**
   sudo docker run -it -p 5900:5900 --name my_container tag_name 
 
+**Make sure the host machine allows 5900 in its firewall**
+
 In container, run:
   x11vnc -storepasswd
   x11vnc -create FD_PROG=/usr/bin/fluxbox -shared -rfbauth /path/where/pass/was/stored/in/above/command/result
