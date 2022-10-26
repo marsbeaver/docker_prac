@@ -1,4 +1,4 @@
-# docker_prac
+**docker_prac**
 Practicing docker:Gui linux container
 
 Uploading Dockerfile for setting up the container
@@ -31,3 +31,7 @@ DISPLAY=:0 startxfce4
 **type exit in container shell to close it**
 
 **If there is an error, close and restart Xephyr and run line 23 again**
+
+
+
+
