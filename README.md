@@ -1,4 +1,4 @@
-**docker_prac**
+#**docker_prac**
 Practicing docker:Gui linux container
 
 Uploading Dockerfile for setting up the container
@@ -32,7 +32,7 @@ DISPLAY=:0 startxfce4
 
 **If there is an error, close and restart Xephyr and run line 23 again**
 
-**_USING x11vnc_**
+##**_USING x11vnc_**
 _update: added 'apk add fluxbox xvfb xterm' to Dockerfile_
 _Connect remotely to another device_
 
