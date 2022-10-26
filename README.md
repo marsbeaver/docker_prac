@@ -45,7 +45,7 @@ Install vnc viewer in another device. <br />
 
 In container, run: <br />
   x11vnc -storepasswd <br />
-  x11vnc -create FD_PROG=/usr/bin/fluxbox -shared -rfbauth /path/where/pass/was/stored/in/above/command/result <br />
+  x11vnc -create -env FD_PROG=/usr/bin/fluxbox -shared -rfbauth /path/where/pass/was/stored/in/above/command/result <br />
  
 In the vnc viewer, enter ip address of your main system, not the container. <br />
 
