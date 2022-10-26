@@ -32,6 +32,21 @@ DISPLAY=:0 startxfce4
 
 **If there is an error, close and restart Xephyr and run line 23 again**
 
+**_USING x11vnc_**
+_update: added 'apk add fluxbox xvfb xterm' to Dockerfile
+_Connect remotely to another device_
+
+Install vnc viewer in another device.
+
+In container, run:
+  x11vnc -storepasswd
+  x11vnc -create FD_PROG=/usr/bin/fluxbox -shared -rfbauth /path/where/pass/was/stored/in/above/command/result
+ 
+In the vnc viewer, enter ip address of your main system, not the container.
+  
+  
+
+
 
 
 
