@@ -1,8 +1,6 @@
-# **docker_prac** <br />
-Practicing docker:Gui linux container <br />
+# **Implementing GUI for linux Docker containers** <br />
 
-Uploading Dockerfile for setting up the container <br />
-
+Dockerfile uploaded for setting up the container <br />
 
 **Build docker file** <br />
 
