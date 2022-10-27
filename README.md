@@ -39,7 +39,7 @@ _Connect remotely to another device_ <br />
 Install vnc viewer in another device. <br />
 
 **Use below command to create container instead** <br />
-  `sudo docker run -it -p --net=host --name my_container tag_name` <br />
+  `sudo docker run -it --net=host --name my_container tag_name` <br />
 
 **Make sure the host machine allows 5900 in its firewall** <br />
 
