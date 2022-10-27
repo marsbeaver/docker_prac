@@ -86,8 +86,6 @@ Click connect <br />
 
 ![This is how it looks!](novnc_browser.png) <br />
 
-![This is how it looks!](novnc_fluxbox.png) <br />
-
 ![This is how it looks!](novnc_xfce4.png) <br />
 
 
