@@ -6,6 +6,8 @@ Dockerfile uploaded for setting up the container <br />
 
 `sudo docker build -t tag_name /Desktop/Dockerfile_folder` <br />
 
+# **_USING Xephyr_**
+
 **Run following on a separate terminal, a black window will show** <br />
 
 `xhost +local:*` <br />
@@ -21,7 +23,6 @@ Dockerfile uploaded for setting up the container <br />
 `sudo docker attach my_container`  <br />
 
 **In the container's shell, run the following** <br />
-**if it says startxfce4 not found, run `apk add xfce4` in the shell** <br />
 
 `DISPLAY=:0 startxfce4` <br />
 
@@ -33,7 +34,7 @@ Dockerfile uploaded for setting up the container <br />
 ![This is how it looks](Screenshot%20from%202022-10-23%2018-15-59.png)
 
 ## **_USING x11vnc_** <br />
-_update: added 'apk add fluxbox xvfb xterm' to Dockerfile_ <br />
+_update: added 'apk add xvfb' to Dockerfile_ <br />
 _Connect remotely to another device_ <br />
 
 Install vnc viewer in another device. <br />
@@ -45,14 +46,9 @@ Install vnc viewer in another device. <br />
 
 In container, run: <br />
   `x11vnc -storepasswd` <br />
-  `x11vnc -create -env FD_PROG=/usr/bin/fluxbox -shared -rfbauth /path/where/pass/was/stored/in/above/command/result` <br />
+  `x11vnc -create -env FD_PROG=/usr/bin/startxfce4 -shared -rfbauth /path/where/pass/was/stored/in/above/command/result` <br />
  
 In the vnc viewer, enter ip address of your main system, not the container. <br />
-
-In the device, right click + xterm. <br />
-In the terminal, type: <br />
-  `startxfce4` <br />
-
 
 ## **_USING novnc_** <br />
 Connect to docker container through browser using novnc <br />
@@ -66,7 +62,7 @@ Download [novnc](https://github.com/novnc/noVNC/releases) <br />
 
 In container, run: <br />
     `x11vnc -storepasswd` <br />
-    `x11vnc -create -env FD_PROG=/usr/bin/fluxbox -shared -rfbauth /path/where/pass/was/stored/in/above/command/result` <br />
+    `x11vnc -create -env FD_PROG=/usr/bin/startxfce4 -shared -rfbauth /path/where/pass/was/stored/in/above/command/result` <br />
 
 Execute another terminal in container <br />
 
