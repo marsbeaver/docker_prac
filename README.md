@@ -32,6 +32,8 @@ Uploading Dockerfile for setting up the container <br />
 
 **If there is an error, close and restart Xephyr and run line 23 again** <br />
 
+![This is how it looks](Screenshot%20from%202022-10-23%2018-15-59.png)
+
 ## **_USING x11vnc_** <br />
 _update: added 'apk add fluxbox xvfb xterm' to Dockerfile_ <br />
 _Connect remotely to another device_ <br />
