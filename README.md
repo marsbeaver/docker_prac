@@ -46,7 +46,7 @@ Install vnc viewer in another device. <br />
 `sudo ufw enable` <br />
 `sudo ufw allow 5900` <br />
 
-If the vnc viewer doesn't detect the system, reset the firewall, enable and allow 5900 again
+If the vnc viewer doesn't detect the system, reset the firewall, enable and allow 5900 again <br />
 `sudo ufw reset` <br />
 `sudo ufw enable` <br />
 `sudo ufw allow 5900` <br />
