@@ -1,10 +1,3 @@
 FROM alpine
-RUN apk add alpine-conf
-RUN apk add openrc
-RUN setup-xorg-base; exit 0
-RUN apk add xfce4 xfce4-terminal xfce4-screensaver lightdm-gtk-greeter fluxbox xterm xvfb x11vnc git bash python3
-RUN rc-update add dbus
-RUN rc-update add lightdm
-RUN apk add xauth
-RUN apk update
+RUN apk add alpine-conf xfce4 xfce4-terminal xfce4-screensaver lightdm-gtk-greeter x11vnc git bash python3 xvfb && apk update
 RUN echo "done all"
