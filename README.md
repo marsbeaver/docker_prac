@@ -55,7 +55,13 @@ In container, run: <br />
   `x11vnc -storepasswd` <br />
   `x11vnc -create -env FD_PROG=/usr/bin/startxfce4 -shared -rfbauth /path/where/pass/was/stored/in/above/command/result` <br />
  
+
+ 
 In the vnc viewer, enter ip address of your main system, not the container. <br />
+
+![This is how it looks](android_vnc.png)
+
+![This is how it looks](android_vnc2.png)
 
 ## **_USING novnc_** <br />
 Connect to docker container through browser using novnc <br />
