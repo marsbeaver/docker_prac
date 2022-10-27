@@ -43,6 +43,13 @@ Install vnc viewer in another device. <br />
   `sudo docker run -it --net=host --name my_container tag_name` <br />
 
 **Make sure the host machine allows 5900 in its firewall** <br />
+`sudo ufw enable` <br />
+`sudo ufw allow 5900` <br />
+
+If the vnc viewer doesn't detect the system, reset the firewall, enable and allow 5900 again
+`sudo ufw reset` <br />
+`sudo ufw enable` <br />
+`sudo ufw allow 5900` <br />
 
 In container, run: <br />
   `x11vnc -storepasswd` <br />
