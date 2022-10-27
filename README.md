@@ -79,7 +79,11 @@ Replace the host-name(e.g pop-os) with system's public IP address <br />
 http://pop-os:6080/vnc.html?host=pop-os&port=6080 <br />
 Click connect <br />
 
+![This is how it looks!](novnc_browser.png) <br />
 
+![This is how it looks!](novnc_fluxbox.png) <br />
+
+![This is how it looks!](novnc_xfce4.png) <br />
 
 
 
