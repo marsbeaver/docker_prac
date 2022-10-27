@@ -61,14 +61,18 @@ _update_:Added 'RUN apk add git', 'RUN apk add bash', and 'RUN apk add python3' 
 
 Download [novnc](https://github.com/novnc/noVNC/releases) <br />
 
+**Use below command to create container instead** <br />
+  `sudo docker run -it --net=host -v /path/of/novnc/folder:/path/for/novnc/folder --name my_container tag_name` <br />
+
 In container, run: <br />
     `x11vnc -storepasswd` <br />
     `x11vnc -create -env FD_PROG=/usr/bin/fluxbox -shared -rfbauth /path/where/pass/was/stored/in/above/command/result` <br />
 
-In a new terminal of host system<br />
-`cd /path/to/extracted/noVNC_folder`
+Execute another terminal in container <br />
 
-Execute following in that terminal <br />
+`sudo docker execute -it my_container /bin/sh` <br />
+
+Run following in this terminal <br />
 
 `./utils/novnc_proxy --vnc localhost:5900` <br />
 
