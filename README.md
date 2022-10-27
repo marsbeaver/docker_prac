@@ -54,7 +54,7 @@ In the terminal, type: <br />
   startxfce4 <br />
 
 
-##**_USING novnc_** <br />
+## **_USING novnc_** <br />
 Connect to docker container through browser using novnc <br />
 
 _update_:Added 'RUN apk add git', 'RUN apk add bash', and 'RUN apk add python3' in Dockerfile
