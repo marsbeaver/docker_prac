@@ -70,7 +70,7 @@ In container, run: <br />
 
 Execute another terminal in container <br />
 
-`sudo docker execute -it my_container /bin/sh` <br />
+`sudo docker exec -it my_container /bin/sh` <br />
 
 Run following in this terminal <br />
 
