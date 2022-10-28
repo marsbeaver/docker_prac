@@ -94,7 +94,7 @@ Click connect <br />
 
 ![This is how it looks!](novnc_xfce4.png) <br />
 
-Docker image for novnc implementation: <br />
+##Docker image for novnc implementation: <br />
 
 `docker pull marsbeaver/gui_imp:latest` <br />
 
@@ -106,6 +106,11 @@ In the container's terminal, run: <br />
 
 `./usr/bin/abcd.sh` <br />
 
+Enter below url in remote machine, replace pop-os with host system ip: <br />
+
+http://pop-os:6080/vnc.html <br />
+
+Click Connect.
 
 
 
