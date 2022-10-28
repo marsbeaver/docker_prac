@@ -3,7 +3,7 @@
 Dockerfile uploaded for setting up the container <br />
 
 # Table of contents
-1. [Dockerfile](#Build-docker-file)
+1. [Dockerfile](#Build-docker-file-)
 2. [USING Xephyr](#USING-Xephyr)
 3. [USING x11vnc](#USING-x11vnc-)
 4. [USING novnc](#USING-novnc-)
