@@ -94,6 +94,18 @@ Click connect <br />
 
 ![This is how it looks!](novnc_xfce4.png) <br />
 
+Docker image for novnc implementation: <br />
+
+`docker pull marsbeaver/gui_imp:latest` <br />
+
+Create and run container: <br />
+
+`docker run -it -p 6080:6080 --name my_container marsbeaver/gui_imp:latest`
+
+In the container's terminal, run: <br />
+
+`./usr/bin/abcd.sh` <br />
+
 
 
 
