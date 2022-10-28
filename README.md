@@ -109,9 +109,7 @@ Create and run container: <br />
 
 &emsp;`docker run -it -p 6080:6080 --name my_container marsbeaver/gui_imp:latest`
 
-In the container's terminal, run: <br />
-
-&emsp;`./usr/bin/abcd.sh` <br />
+In the container's terminal, enter the password for the connection: <br />
 
 Enter below url in remote machine, replace pop-os with host system ip: <br />
 
