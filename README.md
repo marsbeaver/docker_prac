@@ -3,10 +3,10 @@
 Dockerfile uploaded for setting up the container <br />
 
 # Table of contents
-1. [USING Xephyr](./#USING-Xephyr)
-2. [USING x11vnc](./#USING-x11vnc)
-3. [USING novnc](./#USING-novnc)
-4. [Docker image for novnc implementation](./#Docker-image-for-novnc-implementation)
+1. [USING Xephyr](#USING-Xephyr)
+2. [USING x11vnc](#USING-x11vnc)
+3. [USING novnc](#USING-novnc)
+4. [Docker image for novnc implementation](#Docker-image-for-novnc-implementation)
 
 **Build docker file** <br />
 
