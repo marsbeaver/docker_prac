@@ -2,11 +2,17 @@
 
 Dockerfile uploaded for setting up the container <br />
 
+# Table of contents
+1. [USING Xephyr](./#USING-Xephyr)
+2. [USING x11vnc](./#USING-x11vnc)
+3. [USING novnc](./#USING-novnc)
+4. [Docker image for novnc implementation](./#Docker-image-for-novnc-implementation)
+
 **Build docker file** <br />
 
 `sudo docker build -t tag_name /Desktop/Dockerfile_folder` <br />
 
-# **_USING Xephyr_**
+## **_USING Xephyr_**
 
 **Run following on a separate terminal, a black window will show** <br />
 
