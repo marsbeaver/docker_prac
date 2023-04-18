@@ -2,6 +2,11 @@
 
 Dockerfile uploaded for setting up the container. <br />
 
+This project allows users to access an operating system(Alpine Linux) within a Docker container remotely.
+The Docker container has the OS installed, and doesn't need to be setup.
+Simply pull the image from dockerhub into the host system, 
+start a container and enter the url into novnc in a browser in the guest system.
+
 # Table of contents
 1. [Dockerfile](#Build-docker-file-)
 2. [USING Xephyr](#USING-Xephyr)
